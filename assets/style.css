@@ -117,23 +117,23 @@ aside.work-header {
     max-width: 200px;
     margin-bottom: 48px;
 
-/*This creates a top alignment for the H2 sidebar header*/
-h2.sidebar-header {
-    display: flex;
-    margin: 0px;
-}
+    /*This creates a top alignment for the H2 sidebar header*/
+    h2.sidebar-header {
+        display: flex;
+        margin: 0px;
+    }
 
-/*This creates the left side bar for About Me H2 header*/
-section {
-    flex: 70%;
-    background-color: #fff;
-    padding: 24px 24px 24px 24px;
-    flex-wrap: wrap;
-    line-height: 1.3;
-    margin-top: 0px 24px;
-}
+    /*This creates the left side bar for About Me H2 header*/
+    section {
+        flex: 70%;
+        background-color: #fff;
+        padding: 24px 24px 24px 24px;
+        flex-wrap: wrap;
+        line-height: 1.3;
+        margin-top: 0px 24px;
+    }
 
-p.about-me-paragraph {
-    margin: 24px;
-    line-height: 1.2;
-}
+    p.about-me-paragraph {
+        margin: 24px;
+        line-height: 1.2;
+    }

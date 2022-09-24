@@ -1,0 +1,82 @@
+/*Defines variables for the entire document*/
+:root {
+    --dark: rgb(55, 55, 55);
+    --light: rgb(157, 233, 226);
+    --text: rgb(72, 85, 100);
+}
+
+/*This adds Flex and establishes line-height, fonts, and margin for the body of this page*/
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+/*This adds Flex and creates the spacing between the header and the navigation items*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+/*This gives styling and padding to the header in the navbar also adds Flex*/
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 24px 24px 24px 48px;
+    background-color: var(--light);
+    color: var(--text)
+}
+
+/*This defines styling for the unordered list of navigation items*/
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+/*This adds a margin of 24px to the right side of the navigation links*/
+ul li:last-child {
+    margin-right: 24px;
+}
+
+
+.nav-item {
+    display: flex;
+    color: var(--light);
+    text-decoration: none;
+    border-bottom: 3px solid var(--light);
+    padding: 12px;
+    margin: 4px;
+}
+
+.hero-img-container {
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+    padding: 24px 24px 24px 0;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url(./hero-img.jpg);
+    background-size: cover;
+}
+
+.hero-text {
+    display: flex;
+    max-width: 220px;
+    max-height: 42px;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    margin-right: 24px;
+    background-color: var(--light);
+    color: var(--text)
+}

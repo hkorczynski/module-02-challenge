@@ -93,6 +93,7 @@ main {
 
 /*This creates the left side bar for About Me H2 header*/
 aside.sidebar-header {
+    display: inline;
     flex: 30%;
     flex-wrap: wrap;
     color: var(--text);
@@ -105,35 +106,25 @@ aside.sidebar-header {
     margin-bottom: 48px;
 }
 
-aside.work-header {
-    flex: 30%;
+/*This creates a top alignment for the H2 sidebar header*/
+h2.sidebar-header {
+    display: inline;
+    margin: 0px;
+}
+
+/*This creates the left side bar for About Me H2 header*/
+section {
+    flex: 70%;
+    display: inline;
+    background-color: #fff;
     flex-wrap: wrap;
-    color: var(--text);
-    text-align: end;
-    line-height: 1.2;
-    font-size: 200%;
-    border-right: 1px solid var(--text);
-    padding: 0px 24px 64px 64px;
-    max-width: 200px;
-    margin-bottom: 48px;
+    line-height: 1.3;
+    padding: 0 24px 24px 24px;
+    margin-top: 0%;
+}
 
-    /*This creates a top alignment for the H2 sidebar header*/
-    h2.sidebar-header {
-        display: flex;
-        margin: 0px;
-    }
-
-    /*This creates the left side bar for About Me H2 header*/
-    section {
-        flex: 70%;
-        background-color: #fff;
-        padding: 24px 24px 24px 24px;
-        flex-wrap: wrap;
-        line-height: 1.3;
-        margin-top: 0px 24px;
-    }
-
-    p.about-me-paragraph {
-        margin: 24px;
-        line-height: 1.2;
-    }
+p.about-me-paragraph {
+    display: block;
+    padding: 0px;
+    text-align: start;
+}

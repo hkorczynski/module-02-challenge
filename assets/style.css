@@ -128,3 +128,45 @@ p.about-me-paragraph {
     padding: 0px;
     text-align: start;
 }
+
+.work-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    gap: 10px;
+}
+
+img {
+    flex: 1 1 150px;
+    display: grid;
+    width: 300px;
+    height: 150px;
+    border: 3px solid var(--light);
+}
+
+div.work-text {
+    display: inline;
+    position: absolute;
+    text-align: left;
+    padding: 0px 8px 0px 32px;
+    margin-top: 48px;
+    background-color: var(--light);
+    color: var(--text)
+}
+
+
+
+section.contact-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+li.contact-list-item {
+    display: flex;
+    color: var(--text);
+    text-decoration: none;
+    border-bottom: 3px solid var(--text);
+    padding: 4px;
+    margin: 4px;
+}
